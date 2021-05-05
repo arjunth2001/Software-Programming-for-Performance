@@ -1,0 +1,13 @@
+90.txt
+
+q1.c - 2.709s (Original Code)
+1.c  - 1.377s (Pragma for)
+2.c  - 1.890s (SIMD with unrolling)
+3.c  - 1.518s (SIMD without unrolling)
+4.c  - 1.542s (Tiling with Pragma)
+5.c  - 1.590s (Tiling with SIMD)
+6.c  - 1.627s (Tiling with no SIMD, but 16 unrolling)
+7.c  - 2.389s (Split Matrices instead of loops)
+8.c  - 1.71s (Recursion with Multiprocessing)
+9.c  - 1.305s (Prefecting)
+10.c - 1.273s (AVX SIMD)/ Cannot submit bcz requires mavx2 flag to compile.
